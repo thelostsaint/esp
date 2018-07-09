@@ -10,7 +10,135 @@
       {
         "title": "Test",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 332,
+                "y": 135
+              },
+              "angle": 0,
+              "id": "47913d6f-5373-408b-a0ca-f5e3f71cadb2",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "process 0"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 552,
+                "y": 141
+              },
+              "angle": 0,
+              "id": "5c2cd608-2d65-4caa-884f-fcc5aaa886e7",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "store 1"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 48,
+                "y": 146
+              },
+              "angle": 0,
+              "id": "6c0db0c2-ba01-4529-9ed3-e02c9a24ac76",
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "actor 2"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 30,
+                "y": 20
+              },
+              "target": {
+                "x": 32,
+                "y": 356
+              },
+              "vertices": [
+                {
+                  "x": 250,
+                  "y": 187
+                }
+              ],
+              "id": "04f83429-9252-4894-b28f-6329e160c6bc",
+              "z": 4,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 388,
+                "y": 30
+              },
+              "target": {
+                "x": 397,
+                "y": 357
+              },
+              "vertices": [
+                {
+                  "x": 503,
+                  "y": 193
+                }
+              ],
+              "id": "a01c5a72-6b01-4e59-9bf9-4b9fcbe85a1e",
+              "z": 5,
+              "attrs": {}
+            }
+          ]
+        },
+        "size": {
+          "height": 4311.59765625,
+          "width": 3333
+        }
       }
     ],
     "reviewer": "Test"
